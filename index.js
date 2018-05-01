@@ -31,8 +31,4 @@ function calculatesFarePrice(startBlock, endBlock) {
       price = "cannot travel that far"
       return price
     }
-
-
-
-
 }
