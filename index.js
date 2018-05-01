@@ -20,10 +20,10 @@ function calculatesFarePrice(startBlock, endBlock) {
 
     if (distanceInFeet <= 400) {
       price = 0
-      return price 
+      return price
     } else if (distanceInFeet > 400 && distanceInFeet <= 2000) {
-      price = distanceInFeet * .02 
-      return price 
+      price = distanceInFeet * 0.02
+      return price
     }
 
 
