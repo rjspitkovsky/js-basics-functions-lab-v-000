@@ -15,11 +15,11 @@ function distanceTravelledInFeet(startBlock, endBlock) {
 }
 
 function calculatesFarePrice(startBlock, endBlock) {
-  let price 
-  if (distanceTravelledInFeet <= 400) {
+  let price
+  if (distanceTravelledInFeet(startBlock, endBlock) <= 400) {
     price = 0
-    return price 
+    return price
   }
-  
-  
+
+
 }
