@@ -19,7 +19,7 @@ function calculatesFarePrice(startBlock, endBlock) {
   let distanceInFeet = distanceTravelledInFeet(startBlock, endBlock)
 
   switch (distanceInFeet) {
-    case distanceInFeet < 400:
+    case < 400:
     price = 0
     return price
   }
