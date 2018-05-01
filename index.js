@@ -12,5 +12,4 @@ function distanceFromHqInFeet(block) {
 function distanceTravelledInFeet(startBlock, endBlock) {
   let distanceInFeet = Math.abs(startBlock - endBlock)*264;
   return distanceInFeet;
-
 }
